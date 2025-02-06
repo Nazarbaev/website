@@ -873,7 +873,7 @@ section,
 
 .clients .client-logo img {
   padding: 20px 40px;
-  max-width: 90%;
+  max-width: 100%;
   transition: 0.3s;
   opacity: 0.5;
   filter: grayscale(100);
@@ -983,14 +983,14 @@ section,
 
 .about .icon-boxes .col-md-6:nth-child(2) .icon-box,
 .about .icon-boxes .col-md-6:nth-child(4) .icon-box {
-  margin-top: -40px;
+  margin-top: 10px;
 }
 
 @media (max-width: 768px) {
 
   .about .icon-boxes .col-md-6:nth-child(2) .icon-box,
   .about .icon-boxes .col-md-6:nth-child(4) .icon-box {
-    margin-top: 0;
+    margin-top: 10px;
   }
 }
 
